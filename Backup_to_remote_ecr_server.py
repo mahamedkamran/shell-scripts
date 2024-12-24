@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 # Configuration
-LOCAL_FILE = "C:\\New folder\\testing_backup.txt"  # Single file to back up
+LOCAL_FILE = "C:\\New folder\\testing_backup.txt"
 REMOTE_HOST = "44.197.219.176"
 REMOTE_USER = "ubuntu"
 REMOTE_DIR = "/home/ubuntu/backup"
