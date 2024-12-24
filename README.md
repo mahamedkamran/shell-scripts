@@ -95,3 +95,22 @@ Tue Dec 24 18:25:51 UTC 2024: ALERT: Number of running processes is 250 (thresho
 
 3. **Command Not Found:**
    Verify that required tools (`top`, `free`, etc.) are installed and available in your system's `PATH`.
+
+# Backup Script
+
+## Description
+
+This script provides a simple and efficient solution for securely backing up a local file to a remote server using SFTP. The script leverages the `paramiko` library to establish an SSH connection, ensures the destination directory exists, and transfers the file while logging all operations.
+
+## Features
+
+- Transfers a specified local file to a remote server directory using SFTP.
+- Automatically creates the remote directory if it doesn't exist.
+- Maintains a log of all operations with timestamps for auditing and troubleshooting.
+
+## Prerequisites
+
+1. **Python**: Ensure Python 3.x is installed on your system.
+2. **Paramiko Library**: Install the `paramiko` library using pip:
+   ```bash
+   pip install paramiko
