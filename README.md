@@ -1,4 +1,4 @@
-# System Health Monitor
+# 1. System Health Monitor
 
 ## Description
 The **System Health Monitor** is a Bash script designed to monitor the health of a Linux system. It checks key metrics such as CPU usage, memory usage, disk space, and the number of running processes. If any metric exceeds predefined thresholds, the script logs an alert to the console and a specified log file.
@@ -95,8 +95,9 @@ Tue Dec 24 18:25:51 UTC 2024: ALERT: Number of running processes is 250 (thresho
 
 3. **Command Not Found:**
    Verify that required tools (`top`, `free`, etc.) are installed and available in your system's `PATH`.
+   _____________________________________________________________________________________________________________________________
 
-# Backup Script
+# 2. Backup Script
 
 ## Description
 
