@@ -95,6 +95,3 @@ Tue Dec 24 18:25:51 UTC 2024: ALERT: Number of running processes is 250 (thresho
 
 3. **Command Not Found:**
    Verify that required tools (`top`, `free`, etc.) are installed and available in your system's `PATH`.
-
-## License
-This script is provided under the MIT License. Use it freely and modify it to suit your needs.
